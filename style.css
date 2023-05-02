@@ -1,3 +1,8 @@
+body {
+	min-height: 100vh;
+	margin: 0;
+}
+
 .header {
 	background: #1F2937;
 	color: #F9FAF8;
@@ -53,6 +58,7 @@
 	display: flex;
 	justify-content: center;
 	gap: 20px;
+	margin-bottom: 48px;
 
 }
 
@@ -68,7 +74,61 @@
 	border: 2px solid #3882F6;
 }
 
+.quote {
+	background: lightgrey;
+	padding-inline: 200px;
+	padding-top: 52px;
+	padding-bottom: 52px;
 
+}
+
+.words {
+	font-weight: 50;
+	font-size: 20px;
+}
+
+.name {
+	font-weight: 900;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.sign {
+	background: #3882F6;
+	color: white;
+	display: flex;
+	margin-top: 84px;
+	margin-bottom: 84px;
+	margin-inline: 100px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-inline: 100px;
+	align-items: center;
+	justify-content: space-between;
+	border-radius: 10px;
+}
+
+.sign > button {
+	background: #3882F6;
+	color: white;
+	border: white solid 2px;
+	border-radius: 5px;
+	padding-inline: 18px;
+	font-size: 14px;
+}
+#one {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+.footer {
+	background: #1F2937;
+	color: #F9FAF8;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
 
 h3 {
 	font-size: 24px;
